@@ -161,9 +161,9 @@ output from the miner showing the startup and any errors.
 Donations
 ---------
 
-cpuminer-opt has no fees of any kind but donations are accepted.
+cpuminer-litb has no fees of any kind but donations are accepted.
 
- BTC: 3Pzm5Syv59SW5pY2nBD62DFqzmdFu73psQ
+litb: LbiUdK2zrpuegKNijw3oiLbwFyBffgyv7S
 
 Happy mining!
 
