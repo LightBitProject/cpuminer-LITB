@@ -126,11 +126,7 @@ Supported Algorithms
                           yescryptr32   WAVI
                           yespower      Cryply
                           yespowerr16   Yenten (YTN)
-                          yespowerurx   Yespower (URX)
-                          cpupower      CPUchain (CPU)
-                          yespowerltncg Lightningcash-Gold (Ltncg)
                           yespowerlitb  LightBit (LITB)
-                          yespowersugar Sugarchain (SUGAR)
                           zr5           Ziftr
 
 Errata
