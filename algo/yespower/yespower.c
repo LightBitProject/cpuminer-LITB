@@ -135,49 +135,6 @@ bool register_yespowerlitb_algo( algo_gate_t* gate )
   return true;
 };
 
-bool register_yespowersugar_algo( algo_gate_t* gate )
-{
-  yespower_params.version = YESPOWER_1_0;
-  yespower_params.N       = 2048;
-  yespower_params.r       = 32;
-  yespower_params.pers    = "Satoshi Nakamoto 31/Oct/2008 Proof-of-work is essentially one-CPU-one-vote";
-  yespower_params.perslen = 74;
-  gate->optimizations = SSE2_OPT;
-  gate->get_max64     = (void*)&yespower_get_max64;
-  gate->scanhash      = (void*)&scanhash_yespower;
-  gate->hash          = (void*)&yespower_hash;
-  gate->set_target    = (void*)&scrypt_set_target;
-  return true;
-};
-
-bool register_yespower_urx_algo( algo_gate_t* gate )
-{
-   gate->optimizations = SSE2_OPT;
-   gate->scanhash   = (void*)&scanhash_yespower;
-   gate->set_target = (void*)&scrypt_set_target;
-   gate->get_max64  = (void*)&yespower_get_max64;
-   yespower_params.version = YESPOWER_1_0;
-   yespower_params.N       = 2048;
-   yespower_params.r       = 32;
-   yespower_params.pers    = "UraniumX";
-   yespower_params.perslen = 8;
-   return true;
-};
-
-bool register_yespower_ltncg_algo( algo_gate_t* gate )
-{
-   gate->optimizations = SSE2_OPT;
-   gate->scanhash   = (void*)&scanhash_yespower;
-   gate->set_target = (void*)&scrypt_set_target;
-   gate->get_max64  = (void*)&yespower_get_max64;
-   yespower_params.version = YESPOWER_1_0;
-   yespower_params.N       = 2048;
-   yespower_params.r       = 32;
-   yespower_params.pers    = "LTNCGYES";
-   yespower_params.perslen = 8;
-   return true;
-};
-
 int64_t yescrypt_05_get_max64()
 {
   return 0x1ffLL;
