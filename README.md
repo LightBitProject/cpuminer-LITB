@@ -1,6 +1,6 @@
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
-Jeff garzik, ig0tik3d, elmad, palmd, barrystyle, Jay D Dee and Optiminer, with additional
+Jeff garzik, ig0tik3d, elmad, palmd, Jay D Dee and Optiminer, with additional
 optimizations by RickillerZ.
 
 All of the code is believed to be open and free. If anyone has a
